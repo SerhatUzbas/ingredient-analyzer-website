@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ingredient Analyzer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #0ea5e9;
+            --border: #334155;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .logo {
+            font-size: 48px;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0;
+            color: #fff;
+        }
+
+        .last-updated {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 0;
+            color: var(--accent);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #cbd5e1;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #cbd5e1;
+        }
+
+        .footer-note {
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-top: 50px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 15px;
+            }
+            section {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🔬</div>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: February 15, 2026</p>
+        </header>
+
+        <section>
+            <h2>1. Introduction</h2>
+            <p>Welcome to Ingredient Analyzer. We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, and disclose your information when you use our mobile application.</p>
+        </section>
+
+        <section>
+            <h2>2. Information We Collect</h2>
+            <p>We collect information that you provide directly to us, including:</p>
+            <ul>
+                <li><strong>Account Information:</strong> When you sign in with Google or Apple, we receive your name, email address, and profile picture.</li>
+                <li><strong>Health Preferences:</strong> We collect data about your health conditions and dietary preferences to provide personalized ingredient analysis.</li>
+                <li><strong>Usage Data:</strong> We collect information about your scans, including the text extracted from images via OCR. We do not store the original images on our servers permanently; they are processed and then discarded.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. How We Use Your Information</h2>
+            <p>We use the collected information to:</p>
+            <ul>
+                <li>Provide personalized health warnings and recommendations based on your profile.</li>
+                <li>Process and analyze ingredient labels using AI technologies.</li>
+                <li>Maintain and improve our services, fixing bugs and enhancing performance.</li>
+                <li>Synchronize your scan history and preferences across all your devices.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Data Storage and Security</h2>
+            <p>Your data is stored securely using <strong>Firebase</strong> (a Google service). We implement appropriate technical and organizational security measures to protect your personal information. However, please remember that no method of transmission over the internet or method of electronic storage is 100% secure.</p>
+        </section>
+
+        <section>
+            <h2>5. Third-Party Services</h2>
+            <p>We use the following third-party services to provide the application's functionality:</p>
+            <ul>
+                <li><strong>Firebase:</strong> For secure authentication, cloud database hosting, and analytics.</li>
+                <li><strong>RevenueCat:</strong> For managing subscriptions and processing in-app purchases.</li>
+                <li><strong>Google/OpenAI APIs:</strong> Used for OCR (Optical Character Recognition) and AI analysis of ingredients.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Your Privacy Rights</h2>
+            <p>Depending on your location, you may have the right to access, correct, or delete your personal data. You can delete your account and all associated data directly through the "Settings" menu within the application at any time.</p>
+        </section>
+
+        <section>
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:uzbas-dev@gmail.com">uzbas-dev@gmail.com</a></p>
+        </section>
+
+        <div class="footer-note">
+            &copy; 2026 Ingredient Analyzer. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
